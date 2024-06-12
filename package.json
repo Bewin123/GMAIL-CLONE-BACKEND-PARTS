@@ -1,0 +1,21 @@
+{
+  "name": "gmail-clone-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.22"
+  },
+  "description": "This is the backend for the Gmail clone application. It provides RESTful APIs to handle requests and responses for email-related functionalities such as composing emails, managing inbox, sent items, drafts, trash, etc.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
